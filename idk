@@ -1,0 +1,4 @@
+static string dupa (string )
+{
+Console.WriteLine("eggcelent");
+}
