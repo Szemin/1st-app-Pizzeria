@@ -1,0 +1,16 @@
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            SayHi();
+        }
+        static void SayHi()
+        {
+
+            Console.WriteLine("hello user");
+
+        }
+    }
+}
