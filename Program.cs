@@ -16,7 +16,7 @@
             catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                //Sprawdza błedy
+                //Sprawdza błedy i je wypisuje
             }
 
 
