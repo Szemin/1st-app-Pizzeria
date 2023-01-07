@@ -1,5 +1,7 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 using System;
+using ConsoleApp6;
+
 class Menu
 {
     static void Main(string[] args)
@@ -44,11 +46,13 @@ class Menu
         action();
         Console.WriteLine();
         choice2();
+        Cennik.PrizeS();
         Console.ReadKey();
     }
     //press button to next action
     static void choice()
     {
+        start:
         int key;
         int.TryParse(Console.ReadLine(), out key);
         switch (key)
@@ -71,6 +75,19 @@ class Menu
             default:
                 Console.WriteLine("you choose wrong option i can't execute it");
                 break;
+
+        }
+        Console.WriteLine("\n");
+        Console.WriteLine("Czy uruchomić ponownie program wyboru rozmiaru? Tak - t / Nie - n.");
+        Console.WriteLine(" \n");
+        var Uruchom = Console.ReadLine();
+        if (Uruchom == "t")
+        {
+            goto start;
+        }
+        else
+        {
+            Console.WriteLine("Przechodzisz dalej");
         }
     }
 
@@ -137,7 +154,7 @@ class Menu
         Console.WriteLine("----------------------------");
         Console.WriteLine("    Choose size of pizza    ");
         Console.WriteLine("----------------------------");
-        Console.WriteLine(" Type : small, middle, large");
+        Console.WriteLine(" Type : small, medium, large");
         Console.WriteLine("                            ");
     }
 
@@ -149,27 +166,33 @@ class Menu
             switch (key)
             {
                 case "small":
-                    info1();
+                    Size.info1();
                     break;
-                case "middle":
-                    info2();
+                case "medium":
+                    Size.info2();
                     break;
                 case "large":
-                    info3();
-                    break;
-                case "back":
-                    info4();
+                    Size.info3();
                     break;
                 default:
                     Console.WriteLine("Wrong! ");
                     break;
             }
         Console.WriteLine("\n");
-        Console.WriteLine("Czy uruchomić ponownie PROGRAM? Tak - t / Nie - n.");
+        Console.WriteLine("Czy uruchomić ponownie program wyboru rozmiaru? Tak - t / Nie - n.");
+        Console.WriteLine(" \n");
         var Uruchom = Console.ReadLine();
         if (Uruchom == "t")
         {
             goto start;
         }
+        else
+        {
+            Console.WriteLine("Przechodzisz dalej");
+        }
     }
+
+    //
+
+
 }
