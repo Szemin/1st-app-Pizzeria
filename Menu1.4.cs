@@ -78,7 +78,7 @@ class Menu
 
         }
         Console.WriteLine("\n");
-        Console.WriteLine("Czy uruchomić ponownie program wyboru rozmiaru? Tak - t / Nie - n.");
+        Console.WriteLine("Czy chcesz wybrać inną pizzę? Tak - t / Nie - n.");
         Console.WriteLine(" \n");
         var Uruchom = Console.ReadLine();
         if (Uruchom == "t")
