@@ -80,14 +80,26 @@ class Menu
         Console.WriteLine("\n");
         Console.WriteLine("Czy chcesz wybrać inną pizzę? Tak - t / Nie - n.");
         Console.WriteLine(" \n");
-        var Uruchom = Console.ReadLine();
+       var Uruchom = Console.ReadLine();
         if (Uruchom == "t")
         {
             goto start;
         }
-        else
+        else if (Uruchom == "n")
         {
-            Console.WriteLine("Przechodzisz dalej");
+            Console.WriteLine("\n");
+            Console.WriteLine("Czy chcesz wrócić i wybrać pizze? Tak - t / Nie - n.");
+            Console.WriteLine(" \n");
+            var Uruchom2 = Console.ReadLine();
+            if (Uruchom2 == "t")
+            {
+                Console.WriteLine("Przechodzisz dalej");
+            }
+            else
+            {
+                Console.WriteLine("bywaj");
+               
+            }
         }
     }
 
