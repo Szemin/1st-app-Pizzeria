@@ -35,7 +35,10 @@ namespace ConsoleApp6
             {
     
                 Console.WriteLine($" \n To twój koszyk wybrałeś opcję {size,1} \n");
-            
+                if (size == "large" || size == "Large")
+                {
+                    Console.WriteLine($"Twoja pizza będzie kosztowała {large}");
+                }
             }
 
 
