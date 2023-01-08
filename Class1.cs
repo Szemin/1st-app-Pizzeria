@@ -14,11 +14,11 @@ namespace ConsoleApp6
             double large = 35;
 
             start:
-            Console.WriteLine("Small - 15zł" + "\n");
+            Console.WriteLine($"Small - {small}" + "\n");
         
-            Console.WriteLine("Medium - 21,37zł" + "\n");
+            Console.WriteLine($"Medium - {medium}" + "\n");
         
-            Console.WriteLine("Large - 35zł" + "\n" );
+            Console.WriteLine($"Large - {large}" + "\n" );
 
             Console.WriteLine("choose your pizza size" + "\n");
             string size = Console.ReadLine();
