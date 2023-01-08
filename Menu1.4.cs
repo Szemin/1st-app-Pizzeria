@@ -93,13 +93,9 @@ class Menu
             var Uruchom2 = Console.ReadLine();
             if (Uruchom2 == "t")
             {
-                Console.WriteLine("Przechodzisz dalej");
+                goto start;
             }
-            else
-            {
-                Console.WriteLine("bywaj");
-               
-            }
+           
         }
     }
 
