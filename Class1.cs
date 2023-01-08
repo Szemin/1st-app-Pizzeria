@@ -8,6 +8,11 @@ namespace ConsoleApp6
 {
     public static void PrizeS()
         { 
+        
+            double small = 15;
+            double medium = 21.37;
+            double large = 35;
+
             start:
             Console.WriteLine("Small - 15zł" + "\n");
         
