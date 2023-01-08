@@ -206,5 +206,12 @@ class Menu
 
     //
 
+    static double suma(double prize)
+    {
+
+        Cennik.PrizeS();
+
+        return 0;
+    }
 
 }
