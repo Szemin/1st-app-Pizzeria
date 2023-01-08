@@ -43,6 +43,10 @@ namespace ConsoleApp6
                 {
                     Console.WriteLine($"Twoja pizza będzie kosztowała {medium}");
                 }
+                else if (size == "small" || size == "Small")
+                {
+                    Console.WriteLine($"Twoja pizza będzie kosztowała {small}");
+                }
             }
 
 
