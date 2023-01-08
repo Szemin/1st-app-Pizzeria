@@ -33,9 +33,9 @@ namespace ConsoleApp6
             }
             else if (Uruchom == "Tak" || Uruchom == "tak")
             {
-
-
-
+    
+                Console.WriteLine($" \n To twój koszyk wybrałeś opcję {size,1} \n");
+            
             }
 
 
