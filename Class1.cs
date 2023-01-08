@@ -48,7 +48,11 @@ namespace ConsoleApp6
                     Console.WriteLine($"Twoja pizza będzie kosztowała {small}");
                 }
             }
-
+            else
+            {
+                Console.WriteLine("wybrałeś niepoprawną opcję");
+                goto start;
+            }
 
         }
     }
