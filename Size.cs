@@ -32,7 +32,7 @@ namespace ConsoleApp6
 
             double LargeWidth = 33;
             Console.WriteLine(" \n");
-            Console.WriteLine("Large pizza is 33x33 cm \n");
+            Console.WriteLine($"Large pizza is {LargeWidth} cm \n");
         }
                  
              
