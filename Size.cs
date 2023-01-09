@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
-    int SmallWidth;
-        int MediumWidth;
-        int LargeWidth;
+  
+     
     public class Size
     {
       
        public static void info1()
         {
+           int SmallWidth;
+        
             Console.WriteLine(" \n");
             Console.WriteLine(" Small pizza is 15x15 cm \n");
         }
