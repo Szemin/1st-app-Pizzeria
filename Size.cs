@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
+    int SmallWidth;
+        int MediumWidth;
+        int LargeWidth;
     public class Size
     {
       
