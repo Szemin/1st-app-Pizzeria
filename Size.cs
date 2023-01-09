@@ -20,6 +20,9 @@ namespace ConsoleApp6
         }
       public static void info2()
         {
+       
+        int MediumWidth;
+        
             Console.WriteLine(" \n");
             Console.WriteLine(" Medium pizza is 21,37x21,37 cm \n");
         }
