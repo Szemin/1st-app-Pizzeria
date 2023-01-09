@@ -29,6 +29,8 @@ namespace ConsoleApp6
               
       public static void info3()
         {
+       
+        int LargeWidth;
             Console.WriteLine(" \n");
             Console.WriteLine("Large pizza is 33x33 cm \n");
         }
