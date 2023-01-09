@@ -24,7 +24,7 @@ namespace ConsoleApp6
             double MediumWidt = 21.37;
 
             Console.WriteLine(" \n");
-            Console.WriteLine(" Medium pizza is 21,37x21,37 cm \n");
+            Console.WriteLine($" Medium pizza is {MediumWidt} cm \n");
         }
 
         public static void info3()
