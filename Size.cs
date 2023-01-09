@@ -16,7 +16,7 @@ namespace ConsoleApp6
             double SmallWidth = 15;
 
             Console.WriteLine(" \n");
-            Console.WriteLine(" Small pizza is 15x15 cm \n");
+          Console.WriteLine($" Small pizza is {SmallWidth} cm \n");
         }
         public static void info2()
         {
