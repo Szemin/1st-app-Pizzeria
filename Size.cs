@@ -11,26 +11,26 @@ namespace ConsoleApp6
     public class Size
     {
       
-       public static void info1()
+        public static void info1()
         {
-           int SmallWidth;
-        
+            double SmallWidth = 15;
+
             Console.WriteLine(" \n");
             Console.WriteLine(" Small pizza is 15x15 cm \n");
         }
-      public static void info2()
+        public static void info2()
         {
-       
-        int MediumWidth;
-        
+
+            double MediumWidt = 21.37;
+
             Console.WriteLine(" \n");
             Console.WriteLine(" Medium pizza is 21,37x21,37 cm \n");
         }
-              
-      public static void info3()
+
+        public static void info3()
         {
-       
-        int LargeWidth;
+
+            double LargeWidth = 33;
             Console.WriteLine(" \n");
             Console.WriteLine("Large pizza is 33x33 cm \n");
         }
