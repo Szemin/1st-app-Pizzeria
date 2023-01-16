@@ -43,17 +43,17 @@ namespace ConsoleApp6
             {
     
                 Console.WriteLine($" \n To twój koszyk wybrałeś opcję {size,1} \n");
-                if (size == "large" || size == "Large")
+                    if (size == "large" || size == "Large")
                 {
-                    Console.WriteLine($"Twoja pizza będzie kosztowała {large}");
+                    Console.WriteLine($"Twoja pizza będzie kosztowała {pizza.large}");
                 }
-                else if (size == "medium" || size == "Medium")
+                    else if (size == "medium" || size == "Medium")
                 {
-                    Console.WriteLine($"Twoja pizza będzie kosztowała {medium}");
+                    Console.WriteLine($"Twoja pizza będzie kosztowała {pizza.medium}");
                 }
                 else if (size == "small" || size == "Small")
                 {
-                    Console.WriteLine($"Twoja pizza będzie kosztowała {small}");
+                    Console.WriteLine($"Twoja pizza będzie kosztowała {pizza.small}");
                 }
             }
             else
