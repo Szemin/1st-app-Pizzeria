@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
+     struct Cena
+        {
+           public double small;
+           public double medium;
+           public double large;
+        }
     public static void PrizeS()
         { 
         
