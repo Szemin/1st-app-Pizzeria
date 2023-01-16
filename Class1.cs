@@ -22,11 +22,11 @@ namespace ConsoleApp6
             pizza.large = 35;
 
             start:
-            Console.WriteLine($"Small - {small}" + "\n");
+           Console.WriteLine($"Small - {pizza.small}" + "\n");
         
-            Console.WriteLine($"Medium - {medium}" + "\n");
+            Console.WriteLine($"Medium - {pizza.medium}" + "\n");
         
-            Console.WriteLine($"Large - {large}" + "\n" );
+            Console.WriteLine($"Large - {pizza.large}" + "\n" );
 
             Console.WriteLine("choose your pizza size" + "\n");
             string size = Console.ReadLine();
