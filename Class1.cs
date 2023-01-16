@@ -15,9 +15,11 @@ namespace ConsoleApp6
     public static void PrizeS()
         { 
         
-            double small = 15;
-            double medium = 21.37;
-            double large = 35;
+           Cena pizza;
+
+            pizza.small = 15;
+            pizza.medium = 21.37;
+            pizza.large = 35;
 
             start:
             Console.WriteLine($"Small - {small}" + "\n");
