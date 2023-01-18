@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
-     struct Cena
+     struct Cena    //struktura cennika
         {
            public double small;
            public double medium;
